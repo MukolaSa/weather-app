@@ -78,8 +78,8 @@ const Weather = () => {
 
   return (
     <>
-      <input type="text" value={newCity} onChange={e => setNewCity(e.target.value)} placeholder="Введіть назву міста"/>
-      <button onClick={addCity}>Додати місто</button>
+      {/* <input type="text" value={newCity} onChange={e => setNewCity(e.target.value)} placeholder="Введіть назву міста"/>
+      <button onClick={addCity}>Додати місто</button> */}
 
       <div className="container">
         {cities.map((city, index) => (
